@@ -1,0 +1,15 @@
+.profile {
+	margin: 0 auto;
+	text-align: center;
+}
+img {
+	width: 300px;
+	height: 400px;
+}
+
+.contacts {
+	font-size: 20px;
+	padding: 10px;
+	
+	color: #ffffff;
+}

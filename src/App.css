@@ -1,0 +1,55 @@
+
+.wrapper {
+  display: grid; 
+  grid-template-areas: 
+  "header header-nav"
+  "header header-nav"
+   "profile content";
+  grid-template-columns: 4fr 8fr;
+  grid-template-rows: 2fr 1fr 10fr;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+.header {
+  grid-area: header;
+  align-self: center;
+  /* justify-self: center; */
+}
+
+.header-nav {
+  grid-area: header-nav;
+  align-self: center;
+}
+
+.profile {
+  grid-area: profile;
+  /* justify-self: center; */
+  /* background-color: greenyellow; */
+}
+
+.content {
+  grid-area: content;
+  font-size: 21px;
+  margin-left: 29px;
+  color: white;
+  /* background-color: rgb(90, 153, 90); */
+
+}
+
+ol li {
+  margin-top: 5px;
+}
+
+ol li:first-child {
+  margin-top: 0px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+p:first-child {
+  margin-top: 0px;
+}
+

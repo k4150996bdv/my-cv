@@ -1,0 +1,19 @@
+.nav {
+display: inline;
+
+padding: 10px;
+/* border: 1px solid black; */
+}
+
+.nav a {
+  font-size: 24px;
+  color: #ffffff;
+
+} 
+.nav a.active {
+ color: #00d646;
+}
+
+.nav:first-child {
+margin-left: 20px;
+}

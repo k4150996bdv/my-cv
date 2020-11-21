@@ -1,0 +1,7 @@
+.education p {
+    margin-top: 10px;
+}
+
+.education p:first-child {
+    margin-top: 0px;
+}

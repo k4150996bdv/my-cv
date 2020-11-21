@@ -1,0 +1,18 @@
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:  #ffffff;
+    font-size: 39px;
+}
+
+
+
+.profession {
+font-weight: normal;
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 28px;
+    color:  #00d646;
+}
+
+
