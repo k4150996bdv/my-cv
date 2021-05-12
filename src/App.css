@@ -2,9 +2,9 @@
 .wrapper {
   display: grid; 
   grid-template-areas: 
-  "header header-nav"
-  "header header-nav"
-   "profile content";
+  "header nav-wrapper"
+  "header nav-wrapper"
+  "profile content";
   grid-template-columns: 4fr 8fr;
   grid-template-rows: 2fr 1fr 10fr;
   max-width: 1200px;
@@ -14,27 +14,23 @@
 .header {
   grid-area: header;
   align-self: center;
-  /* justify-self: center; */
 }
 
-.header-nav {
-  grid-area: header-nav;
+.nav-wrapper {
+  grid-area: nav-wrapper;
   align-self: center;
+  margin-left: 30px;
 }
 
 .profile {
   grid-area: profile;
-  /* justify-self: center; */
-  /* background-color: greenyellow; */
 }
 
 .content {
   grid-area: content;
   font-size: 21px;
-  margin-left: 29px;
+  margin-left: 30px;
   color: white;
-  /* background-color: rgb(90, 153, 90); */
-
 }
 
 ol li {

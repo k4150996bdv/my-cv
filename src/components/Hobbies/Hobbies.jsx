@@ -1,15 +1,21 @@
 import React from 'react';
+
+const state = [
+    "Катання на лижах",
+    "Детейлінг авто",
+    "Спорт",
+    "Література"
+]
+
 const Hobbies = () => {
 
     return (
         <div>
-            <ol>
-                <li>Катание на лыжах;</li>
-                <li>Детейлинг авто;</li>
-                <li>Спорт;</li>
-                <li>Литература</li>
-            </ol>
+            <ul>
+                {state.map(list => <li>{list}</li>)}
+            </ul>
         </div>
+        
     )
 
 }

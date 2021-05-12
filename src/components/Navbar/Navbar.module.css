@@ -1,10 +1,13 @@
-.nav {
-display: inline;
-
-padding: 10px;
-/* border: 1px solid black; */
+.nav_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; 
 }
 
+.nav:hover{
+  border-bottom: #00d646 ;
+}
 .nav a {
   font-size: 24px;
   color: #ffffff;
@@ -13,7 +16,7 @@ padding: 10px;
 .nav a.active {
  color: #00d646;
 }
-
-.nav:first-child {
-margin-left: 20px;
+.nav a:hover {
+  text-decoration: underline;
+ 
 }

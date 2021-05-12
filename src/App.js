@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Redirect } from 'react-router-dom';
 import './App.css';
 import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
@@ -12,6 +12,7 @@ import Profile from './components/Profile/Profile';
 import Skills from './components/Skills/Skills';
 
 
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -20,7 +21,8 @@ const App = () => {
         <Navbar />
         <Profile />
         <div className="content">
-          <Route component={MainPage} path="/mainpage" />
+          <Redirect exact from="/" to="/mainpage" />
+          <Route component={MainPage} path='/mainpage' />
           <Route component={Skills} path="/skills" />
           <Route component={Experience} path="/experience" />
           <Route component={Education} path="/education" />
@@ -32,5 +34,4 @@ const App = () => {
 
   );
 }
-
 export default App;
