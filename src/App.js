@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Redirect } from 'react-router-dom';
+import { HashRouter , Route, Redirect } from 'react-router-dom';
 import './App.css';
 import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
@@ -15,7 +15,7 @@ import Skills from './components/Skills/Skills';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="wrapper">
         <Header />
         <Navbar />
@@ -30,7 +30,7 @@ const App = () => {
         </div>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
 
   );
 }

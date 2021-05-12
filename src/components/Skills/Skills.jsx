@@ -1,7 +1,7 @@
 import React from 'react';
 
 const state = [
-    "Відмінні знання HTML5/CSS;",
+    "Знання HTML5/CSS;",
     "Знання JavaScript;",
     "Знання React.js, Redux, Redux Thunk;",
     "Практичний досвід верстки макетів сайту;",

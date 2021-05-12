@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer>
             <div className={`${style.social} ${style.linkedin}`}>
-                <a href="https://www.facebook.com/dima.babiienko" target="_blank">
+                <a href="https://www.linkedin.com/in/dmytro-babiienko-251095166" target="_blank">
                     <i className="fa fa-linkedin fa-2x"></i>
                 </a>
             </div>
