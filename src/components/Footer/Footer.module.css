@@ -13,6 +13,7 @@
     color: #3b5998;
 }
 
+.linkedin a:hover {background: #3b5998; color: #fff;}
 .instagram a:hover {background: #c536c5; color: #fff;}
 .facebook a:hover {background: #3b5998; color: #fff;}
 

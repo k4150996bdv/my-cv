@@ -1,23 +1,15 @@
 import React from 'react';
-
-const state = [
-    "Катання на лижах",
-    "Детейлінг авто",
-    "Спорт",
-    "Література"
-]
-
+import Slider from "./Slider"
 const Hobbies = () => {
-
-    return (
+   
+    return <>
         <div>
-            <ul>
-                {state.map(list => <li>{list}</li>)}
-            </ul>
+            <p> Катання на лижах, детейлінг авто, спорт, література</p>
+           
         </div>
         
-    )
-
+        <Slider />
+    </>
 }
 
 export default Hobbies;
